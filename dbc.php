@@ -13,7 +13,7 @@ Class Dbc
        $dbname = DB_NAME;
        $user = DB_USER;
        $pass = DB_PASS;
-       $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
+       $dsn = "データベース";
     
        try{
           $dbh = new PDO($dsn,$user,$pass,[
